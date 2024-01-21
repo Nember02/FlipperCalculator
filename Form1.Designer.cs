@@ -48,19 +48,6 @@
             rotatedLabel = new RotatedLabel();
             SuspendLayout();
             // 
-            // rotatedLabel
-            // 
-            rotatedLabel.BackColor = Color.Transparent;
-            rotatedLabel.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            rotatedLabel.ForeColor = Color.Blue;
-            rotatedLabel.Location = new Point(88, 9);
-            rotatedLabel.Name = "rotatedLabel";
-            rotatedLabel.RotateAngle = 90;
-            rotatedLabel.Size = new Size(313, 313);
-            rotatedLabel.TabIndex = 0;
-            rotatedLabel.Text = "Made by CraftFrog";
-            rotatedLabel.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // textBox1
             // 
             textBox1.Location = new Point(132, 42);
@@ -217,7 +204,19 @@
             label10.Name = "label10";
             label10.Size = new Size(100, 23);
             label10.TabIndex = 0;
-            
+            // 
+            // rotatedLabel
+            // 
+            rotatedLabel.BackColor = Color.Transparent;
+            rotatedLabel.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            rotatedLabel.ForeColor = Color.Blue;
+            rotatedLabel.Location = new Point(88, 9);
+            rotatedLabel.Name = "rotatedLabel";
+            rotatedLabel.RotateAngle = 90;
+            rotatedLabel.Size = new Size(313, 313);
+            rotatedLabel.TabIndex = 0;
+            rotatedLabel.Text = "Made by CraftFrog";
+            rotatedLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // MainForm
             // 
@@ -225,8 +224,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(403, 437);
-            
+            ClientSize = new Size(417, 437);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);

@@ -107,7 +107,7 @@ namespace FlipperCalculator
         }
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
-            if (decimal.TryParse(textBox5.Text, out decimal number))
+            if (decimal.TryParse(textBox6.Text, out decimal number))
             {
                 textBox6.Text = string.Format("{0:N0}", number);
                 textBox6.SelectionStart = textBox6.Text.Length;
