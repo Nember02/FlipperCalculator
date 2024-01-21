@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>res\4634995-coin_122541.ico</ApplicationIcon>
+    <StartupObject>FlipperCalculator.Program</StartupObject>
+    <SignAssembly>False</SignAssembly>
+    <Copyright>nember_</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="res\4634995-coin_122541.ico" />
+  </ItemGroup>
+
+</Project>
